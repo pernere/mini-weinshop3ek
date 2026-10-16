@@ -1,0 +1,131 @@
+/* Farbthema: edles Dunkelweinrot + Gold */
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    margin: 0;
+    background-color: #2b0a18;
+    color: #f5e6d3;
+    text-align: center;
+}
+
+nav {
+    background-color: #1a0510;
+    padding: 14px;
+    border-bottom: 2px solid #c9a227;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #c9a227;
+}
+
+header {
+    padding: 50px 20px 30px;
+    background: radial-gradient(circle at center, #4a0f26 0%, #2b0a18 75%);
+}
+
+h1 {
+    margin: 0;
+    font-size: 34px;
+    color: #e8c87a;
+}
+
+.untertitel {
+    margin-top: 10px;
+    font-style: italic;
+    color: #d9a5a5;
+    letter-spacing: 1px;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.produkt {
+    background-color: #3d1226;
+    border: 1px solid #c9a227;
+    border-radius: 10px;
+    padding: 25px 20px;
+    width: 280px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.etikett {
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    background-color: #8e1b34;
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    padding: 4px 12px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.etikett.weiss {
+    background-color: #c9a227;
+    color: #1a0510;
+}
+
+.produkt h2 {
+    margin: 10px 0;
+    font-size: 22px;
+    color: #f5e6d3;
+}
+
+.produkt p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #d9bfae;
+}
+
+.preis {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e8c87a;
+}
+
+.btn-wein {
+    margin-top: 10px;
+    padding: 12px 26px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: #1a0510;
+    background: linear-gradient(180deg, #e8c87a, #c9a227);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+}
+
+.btn-wein:hover {
+    background: linear-gradient(180deg, #f5df9e, #d9b24a);
+    transform: translateY(-2px);
+}
+
+#warenkorb {
+    max-width: 800px;
+    margin: 10px auto 40px;
+    padding: 12px;
+    font-size: 18px;
+    color: #e8c87a;
+    border: 1px dashed #c9a227;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1a0510;
+    padding: 18px;
+    font-size: 14px;
+    color: #a98b76;
+}
